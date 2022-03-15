@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 32px; */
+    
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/* header */
+header{
+    background-color: rgb(44, 44, 196);
+    height: 95px;
+}
+.img{
+    width: 75px;
+    height: 85px;
+    float: left;
+}
+.nav{
+    float: right;
+    
+}
+.nav, a{
+    margin-top: 45px;
+    color: white;
+    text-decoration: none;
+    padding-right: 32px;
+    text-transform: uppercase;
+}
+.col{
+    width: 29.33%;
+    float: left;
+    margin-top: 45px;
+}
+.col-1{
+    width: 400px;
+}
+.photo1{
+    width: 600px;
+    height: 400px;
+    margin-left: 180px;
+}
+h2{
+    padding-bottom: 25px;
+    font-size: 32px;
+    color: brown;
+}
+p{
+    font-size: 18px;
+    color: green;
+    padding-bottom: 8px;
+}
+.image,.image1{
+     width: 400px;
+    height: 400px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+footer{
+    background-color: rgb(138, 138, 182);
+    height: 75px;
+    margin-top: 75px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
